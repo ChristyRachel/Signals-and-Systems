@@ -1,0 +1,135 @@
+>> clc
+>> % CREATE A VECTOR
+>>
+>>
+>> % ROW VECTOR
+>>
+>> Row_Vector = [12 34 87 -98 56 765 23 -65]
+Row_Vector =
+
+    12    34    87   -98    56   765    23   -65
+
+>>
+>> % COLOUMN VECTOR
+>>
+>> Column_Vector = [54; 24; -65; 98; 234; 766; -984]
+Column_Vector =
+
+    54
+    24
+   -65
+    98
+   234
+   766
+  -984
+
+>> %VECTORS WITHIN A RANGE
+>>
+>> Vector_Range = [1 : 8]
+Vector_Range =
+
+   1   2   3   4   5   6   7   8
+
+>>
+>> %VECTORS WITH A PARTICULAR INTERVAL
+>>
+>> Vector_Interval = [20 : 10 : 100]
+Vector_Interval =
+
+    20    30    40    50    60    70    80    90   100
+
+>>
+>> % TRANSPOSE OF A VECTOR
+>>
+>> Trans_Row_Vector = Row_Vector'
+Trans_Row_Vector =
+
+    12
+    34
+    87
+   -98
+    56
+   765
+    23
+   -65
+
+>> Trans_Column_Vector = Column_Vector'
+Trans_Column_Vector =
+
+    54    24   -65    98   234   766  -984
+
+>> Trans_Vector_Range = Vector_Range'
+Trans_Vector_Range =
+
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+
+>> Trans_Vector_Interval = Vector_Interval'
+Trans_Vector_Interval =
+
+    20
+    30
+    40
+    50
+    60
+    70
+    80
+    90
+   100
+
+>>
+>>
+>> %VECTORS OF ZEROES
+>>
+>> % ROW VECTOR OF ZEROES
+>>
+>> Row_Zero_Vector = zeros(1,10)
+Row_Zero_Vector =
+
+   0   0   0   0   0   0   0   0   0   0
+
+>>
+>> % COLUMN VECTOR OF ZEROES
+>>
+>> Column_Zero_Vector = zeros (9,1)
+Column_Zero_Vector =
+
+   0
+   0
+   0
+   0
+   0
+   0
+   0
+   0
+   0
+   
+>> % VECTORS OF ONES
+>>
+>> % ROW VECTOR OF ONES
+>>
+>> Row_Ones_Vector = ones(1,8)
+Row_Ones_Vector =
+
+   1   1   1   1   1   1   1   1
+
+>> % COLUMN VECTOR OF ONES
+>>
+>> Column_Ones_Vector = ones(9,1)
+Column_Ones_Vector =
+
+   1
+   1
+   1
+   1
+   1
+   1
+   1
+   1
+   1

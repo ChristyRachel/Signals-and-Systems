@@ -1,0 +1,5 @@
+% TRANSPOSE A MATRIX
+
+matrix_3_4 = [435 56 76; 45 87 -65; 76 23 56; 987 87 65]
+
+transpose = matrix_3_4'

@@ -1,0 +1,17 @@
+% CREATE A MATRIX
+
+% A 4*5 MATRIX
+
+matrix_45 = [54 -87 65 867; 87 43 678 65; 98 -87 -43 -87; 78 98 65 -87; 65 -90 100 65]
+
+% A 3*4 MATRIX
+
+matrix_3_4 = [34 67 56; 78 98 -76; 87 65 23; 875 98 76]
+
+% A 5*7 MATRIX OF ZEROES
+
+zero_5_7 = zeros(5,7)
+
+% A 9*7 MATRIX OF ONES
+
+one_5_7 = ones(9,7)

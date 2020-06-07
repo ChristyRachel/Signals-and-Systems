@@ -1,0 +1,7 @@
+% CREATE A 5*1 VECTOR OF ZEROES
+
+zero_5_1 = zeros(5,1)
+
+% CREATE A 1*5 VECTOR OF RANDOM NUMBERS
+
+random_1_5 = rand(1,5)

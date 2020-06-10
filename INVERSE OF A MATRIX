@@ -1,0 +1,5 @@
+% COMPUTE THE INVERSE OF A MATRIX
+
+mat_C = [ 64 76 84; 87 65 76; 72 87 56 ]
+
+C_inverse = inv (mat_C)

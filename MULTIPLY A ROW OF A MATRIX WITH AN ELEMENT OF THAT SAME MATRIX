@@ -1,0 +1,11 @@
+
+% MULTIPLY A ROW OF A MATRIX WITH AN ELEMENT OF THAT SAME MATRIX
+
+z_mat = [ 23 50 43; 23 56 43; 80 90 71 ]
+
+disp ( z_mat( 2, : ) ); %2nd row
+printf ("\n");
+disp ( z_mat ( 1,3 ) ); %value at 1st row 3rd column
+printf ("\n");
+
+product = z_mat( 2, : ) * z_mat ( 1,3 )

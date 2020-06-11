@@ -1,0 +1,7 @@
+% CREATE A VECTOR OF COMPLEX NUMBERS
+
+Real_value = [ 23 45 67 34 12 12 11 34 23]
+
+Img_value = [12 10 30 49 29 11 66 33 11]
+
+Complex = Real_value +  j * Img_value

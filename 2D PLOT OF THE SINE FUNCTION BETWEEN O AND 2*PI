@@ -1,0 +1,13 @@
+
+% CREATE A 2D PLOT OF THE SINE FUNCTION BETWEEN O AND 2*PI
+
+x = ( 0 : pi/50 : 2*pi )
+y = sin (x)
+
+plot(x,y)
+
+xlabel ( 'x' )
+ylabel ( 'sin(x)' )
+
+title ('2D PLOT OF SINE FUNCTION BETWEEN O AND 2*PI')
+

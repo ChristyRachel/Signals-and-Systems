@@ -1,12 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%   Discrete-Time Filter Plotter with Specs
-%
-%   Copyright (C) 2020 emad studio, inc.
-%       author: T. Zourntos
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 function [] = dt_filt_plotter(num, den, Rp, Rs, Fpass, Fstop, Fs, ...
                                 filt_label)
 
